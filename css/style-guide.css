@@ -1,0 +1,78 @@
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* { box-sizing: border-box; }
+
+body {
+	/* Center body in page */
+	margin: 0 auto;
+    max-width: 70em;
+	font-family: 'Lato', sans-serif;
+	background: #ddd;
+}
+
+p {	
+	color: #555;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding: 0;
+} 
+li {
+	list-style-type: none;
+}
+
+figure {
+	float: right;
+	text-align: center;
+}
+
+figure img {
+	width: auto;
+}
+
+img {
+	width: 100%;
+}
+
+.box {
+	/* border: 1px dashed #bbb; */
+	padding: 3em;
+}
+
+.c-box {
+	/* border: 1px dashed #bbb; */
+	padding: 10px;
+}
+.s-box {
+	/* border: 1px dashed #bbb; */
+	padding: 0 0 20px 0;
+}
+
+.card {
+    display:flex;
+    flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.c-photo {
+    flex-grow: 1;
+}
+.c-content {
+    flex-grow: 1;
+}
+.social {
+	padding-bottom: 10px;
+}
+.c-author img {
+	border-radius: 50%;
+}
